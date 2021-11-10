@@ -1,0 +1,78 @@
+$primary: rgba(245, 245, 245, 0.5);
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: $primary;
+    backdrop-filter: blur(3px);
+    width: 100%;
+    padding: 1em;
+    height: 9vh;
+  
+    /* ul tag */
+    .navlinks {
+      display: flex;
+      justify-content: space-around;
+      width: 40%;
+  
+      li {
+        list-style: none; 
+  
+        a {
+          font-size:1.2em;
+          font-weight: 400;
+          text-decoration: none;
+          color: black;
+          
+          #wishlist {
+            width: 30px;
+            height: 30px;
+          }
+  
+        }
+      }
+    }
+  
+    #burger {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    nav > .navlinks {
+        width: 55%;
+      }
+    
+      #burger {
+        display:block;
+      }
+}
+
+@media screen and (max-width: 768px) {
+    .navlinks {
+        position: absolute;
+        right: 0;
+        height: 92vh;
+        top: 9vh;
+        width: 50%;
+        background-color: $primary;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 500 ease-in;
+        li {
+            opacity: 0;
+        }
+        }
+        
+        //Need to add nav because selector in original CSS have
+        //the same specificity as the selector in media query.
+        //If not, style won't apply.
+    nav > #burger {
+    display: block;
+    cursor: pointer;
+    z-index: 1;
+    }
+}
