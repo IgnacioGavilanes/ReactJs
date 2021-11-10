@@ -1,8 +1,8 @@
 import logo from '../../logo.svg';
 import './NavBar.scss';
-import { CgMenu } from "react-icons/cg";
+import {CgMenu} from "react-icons/cg";
 import {BsHeart} from "react-icons/bs";
-import CartWidget from "../CartWidget/CartWidget.js"
+import {CartWidget} from "../CartWidget/CartWidget.js"
 
 
 export const NavBar = () => {

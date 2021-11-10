@@ -1,0 +1,57 @@
+$primary: rgba(245, 245, 245, 0.5);
+
+.counter {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 40vh;
+    .counter-number {
+        font-size: 1.8rem;
+    }
+
+    .counter-btnwrapper{
+        .counter-button {
+            cursor: pointer;
+            margin: 1rem;
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            border-style: none;
+            box-shadow: -7px -7px 20px 0px #fff9,
+                        -4px -4px 5px 0px #fff9,
+                        7px 7px 20px 0px #0002,
+                        4px 4px 5px 0px #0001,
+                        inset 0px 0px 0px 0px #fff9, 
+                        inset 0px 0px 0px 0px #0001,
+                        inset 0px 0px 0px 0px #fff9,
+                        inset 0px 0px 0px 0px #0001;
+            transition: 0.3s;
+    
+            &:hover {
+                background-color: rgba(53, 53, 53, 0.123);
+            }
+
+            &:active {
+                transform: scale(0.9);
+            }
+        }
+    }
+}
+
+//Whenever I reach max/min the pulse animation will run
+.pulse {
+    animation: pulse 400ms ease-in-out;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}

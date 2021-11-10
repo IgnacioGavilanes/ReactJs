@@ -1,0 +1,19 @@
+.placeholder {
+  overflow-x: hidden;
+  font-size: 1.4em;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  font-weight: normal;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .placeholder {
+    padding: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .placeholder {
+    padding: 2.5rem;
+  }
+}/*# sourceMappingURL=ItemListContainer.css.map */

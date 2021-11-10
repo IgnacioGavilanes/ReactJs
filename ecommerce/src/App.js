@@ -7,7 +7,7 @@ function App() {
   const message = 'Welcome To Our Store! Our site is under construction. This may take a while...'
 
   return (
-    <div className="App">
+    <div className="app">
       <NavBar />
       <ItemListContainer greeting={message}/>
     </div>
