@@ -4,12 +4,10 @@ import {ItemListContainer} from './components/ItemListContainer/ItemListContaine
 
 function App() {
   
-  const message = 'Welcome To Our Store! Our site is under construction. This may take a while...'
-
   return (
     <div className="app">
-      <NavBar />
-      <ItemListContainer greeting={message}/>
+      <NavBar/>
+      <ItemListContainer/>
     </div>
   );
 }

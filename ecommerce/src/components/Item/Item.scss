@@ -1,0 +1,92 @@
+$primary:#E0E5EC;
+
+.card {
+    background: $primary;    
+    position: relative;
+    box-shadow: -7px -7px 20px 0px #fff9,
+                -4px -4px 5px 0px #fff9,
+                7px 7px 20px 0px #0002,
+                4px 4px 5px 0px #0001,
+                inset 0px 0px 0px 0px #fff9, 
+                inset 0px 0px 0px 0px #0001,
+                inset 0px 0px 0px 0px #fff9,
+                inset 0px 0px 0px 0px #0001;
+    border-radius: 3rem;
+    margin: 5rem 3rem 5rem 3rem;
+    padding: 1rem;
+    width: 20rem;
+    height: 23.5rem;
+    text-align: center;
+    align-items: center;
+
+    .img{
+        position: relative;
+        justify-content: center;
+        // bottom: 8rem;
+        bottom: 6rem;
+        width:  230px;
+        height: 230px;
+        border-radius: 50%;
+    }
+
+    .name {
+        position: relative;
+        bottom: 12rem;
+        font-size: 1.2rem;
+        font-weight: 700px;
+        text-align: center;
+        letter-spacing: 0.25em;
+        margin-top: 6rem;
+    }
+
+    .colorway {
+        position: relative;  
+        bottom: 12rem;
+        font-size: 1rem; 
+        font-weight: normal;
+        margin-top: 0.5rem;
+    }
+
+    .price {
+        position: relative;  
+        bottom: 12rem;
+        font-size: 1.5rem; 
+        font-weight: normal;
+        margin-top: 1rem;
+    }
+
+    .reviews {
+        position: relative;  
+        bottom: 12rem;
+        text-align: center;
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+
+    .itemcontainer {
+        display: inline-block;
+        position: relative;  
+        bottom: 12rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .add-wishlist, .add-cart  {
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
+
+
+/* card animations */
+.card:hover {
+    transform: scale(1.1);
+    transition: 500ms ease;
+    border-radius: 0;
+}
+
+.card:hover .img {
+    transform: scale(1.5);
+    transition: 500ms ease;
+    transform: rotate(-15deg);
+}
