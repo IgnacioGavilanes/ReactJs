@@ -5,13 +5,58 @@ eliminado una vez demos firebase
 -------------------------------------------------------------------*/
 
 export const data = [
-    {id: 1, title : "New Balance 327 x Casablanca", colorway : "Green Logo Colorway", reviews: 22, stock: 3, price: 120.00, imgsrc: "https://via.placeholder.com/220"},
+    {
+        id: 1, 
+        title : "New Balance 327 x Casablanca", 
+        colorway : "Green Logo Colorway", 
+        reviews: 22, 
+        stock: 3, 
+        price: 120.00, 
+        imgsrc: "https://via.placeholder.com/220",
+        category: ''
+    },
 
-    {id: 2, title: "Adidas Ozweego x Raf Simons", colorway: "Bright Yellow Night Navy Colorway", reviews: 24, stock: 2, price: 179.99, imgsrc: "https://via.placeholder.com/220"},
+    {
+        id: 2, 
+        title: "Adidas Ozweego x Raf Simons", 
+        colorway: "Bright Yellow Night Navy Colorway",
+        reviews: 24,
+        stock: 4,
+        price: 179.99, 
+        imgsrc: "https://via.placeholder.com/220",
+        category: ''
+    },
 
-    {id: 3, title: "Balenciaga Triple S", colorway: "Red / Black Colorway", reviews: 67, stock: 1, price: 299.99, imgsrc: "https://via.placeholder.com/220"},
+    {
+        id: 3, 
+        title: "Balenciaga Triple S",
+        colorway: "Red / Black Colorway", 
+        reviews: 67,
+        stock: 1,
+        price: 299.99,
+        imgsrc: "https://via.placeholder.com/220",
+        category: ''
+    },
 
-    {id: 4, title: "Balenciaga Track", colorway: "Orange / Blue Colorway", reviews: 44, stock: 2, price: 375.00, imgsrc: "https://via.placeholder.com/220"},
+    {
+        id: 4,
+        title: "Balenciaga Track", 
+        colorway: "Orange / Blue Colorway", 
+        reviews: 44, 
+        stock: 2, 
+        price: 375.00, 
+        imgsrc: "https://via.placeholder.com/220",
+        category: 'low'
+    },
 
-    {id: 5, title: "Nike Blazer Mid x Sacai", colorway: "Snow Beach Colorway", reviews: 39, stock: 2, price: 140, imgsrc: "https://via.placeholder.com/220"}
+    {
+        id: 5, 
+        title: "Nike Blazer Mid x Sacai", 
+        colorway: "Snow Beach Colorway", 
+        reviews: 39, 
+        stock: 2, 
+        price: 140, 
+        imgsrc: "https://via.placeholder.com/220",
+        category: 'high'
+    }
 ]

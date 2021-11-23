@@ -1,13 +1,13 @@
 import React, {useState} from 'react'
 import './ItemCount.scss';
 
-export const ItemCount = ({stock, initial}) => {
+export const ItemCount = ({available, initial}) => {
 
     const [count, setCount] = useState(initial)
 
-    const incrementCount = () => {count < stock ? setCount(count + 1) : setCount(count)}
+    const incrementCount = () => {count < available ? setCount(count + 1) : setCount(count)}
 
-    const decrementCount = () => {count > 1 ? setCount(count - 1): setCount(count)}
+    const decrementCount = () => {count > initial ? setCount(count - 1): setCount(count)}
 
     return (
         <div className='counter'>

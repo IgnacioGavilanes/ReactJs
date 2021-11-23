@@ -1,18 +1,18 @@
 import React, {useState, useEffect} from 'react';
-import './ItemListContainer.scss';
-import {ItemList} from "../ItemList/ItemList"
-import {getData} from '../../helpers/getData';
+import './ItemDetailContainer.scss'
+import {ItemDetail}  from '../ItemDetail/ItemDetail';
+import {getOneItem} from '../../helpers/getOneItem';
 
-export const ItemListContainer = () => {
+export const ItemDetailContainer = () => {
 
     const [loading, setLoading] = useState(false)
-    const [products, setProducts] = useState([])
+    const [productDetail, setProductDetail] = useState([])
 
     useEffect(() => {
         setLoading(true)
-        getData()
+        getOneItem()
             .then( (response) => {
-                setProducts(response)
+                setProductDetail(response)
             })
             .catch( (error) => {
                 console.log(error)
@@ -21,17 +21,16 @@ export const ItemListContainer = () => {
                 setLoading(false)
             })
     }, [])
-
+    console.log(productDetail)
     return (
         <div>
-            <h1 className='products-title'>Products:</h1>
-
+            <h1 className='title'>Product Detail:</h1>
+            <hr className='divider'/>
             {
                 loading 
                     ? <h3 className='loader'> Loading...</h3> 
-                    : <ItemList items={products}/>
+                    : <ItemDetail item={productDetail}/>
             }
-            
         </div>
     )
 }

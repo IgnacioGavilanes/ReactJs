@@ -1,5 +1,6 @@
 import logo from '../../logo.svg';
 import './NavBar.scss';
+import {Link} from 'react-router-dom'
 import {CgMenu} from "react-icons/cg";
 import {BsHeart} from "react-icons/bs";
 import {CartWidget} from "../CartWidget/CartWidget.js"
@@ -10,28 +11,30 @@ export const NavBar = () => {
     return (
     <nav className='navbar'>
         <div className='logo-container'> 
-            <a href='#/'>
+            <Link to='/'>
                 <img src={logo} alt='logo' />
-            </a>
+            </Link>
         </div>
         <ul className='navlinks'>
             <li className='nav-text'>
-                <a href='#/'>
+                <Link to='/'>
                     Home
-                </a>
+                </Link>
             </li>
             <li className='nav-text'>
-                <a href='#/'>
+                <Link to='/contact'>
                     Contact
-                </a>
+                </Link>
             </li>
             <li>
-                <a href='#/'>
+                <Link to='/'>
                     <BsHeart id='wishlist'/>
-                </a>
+                </Link>
             </li>
             <li>
-                < CartWidget/>
+                <Link to='/'>
+                    < CartWidget/>
+                </Link>
             </li>
         </ul>
         <div id='burger'>

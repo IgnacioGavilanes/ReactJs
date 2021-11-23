@@ -14,7 +14,9 @@ $primary:#E0E5EC;
     border-radius: 3rem;
     margin: 5rem 3rem 5rem 3rem;
     padding: 1rem;
+    // min-width: 20rem;
     width: 20rem;
+    // min-height: 23.5rem;
     height: 23.5rem;
     text-align: center;
     align-items: center;
@@ -90,3 +92,130 @@ $primary:#E0E5EC;
     transition: 500ms ease;
     transform: rotate(-15deg);
 }
+
+
+@media screen and (max-width: 1024px) {
+    //85%
+
+    // .card {
+    //     width: calc(20rem * 0.85);
+    //     height: calc(23.5rem * 0.85); 
+    //     .img{
+    //         width: calc(230px * 0.85);
+    //         height: calc(230px * 0.85);
+    //         bottom: calc(6rem * 0.85);
+    //     }
+
+        // .name{}
+        // .colorway{}
+        // .price{}
+        // .reviews{}
+        // .add-wishlist, .add-cart {}
+        // .itemcontainer {}
+
+        // width: 20rem;
+        // height: 23.5rem;
+    // }
+
+    .card { 
+        margin: calc(5rem * 0.85) calc(3rem * 0.85) calc(5rem * 0.85) calc(3rem * 0.85);
+        padding: calc(1rem * 0.85);
+        width: calc(20rem * 0.85);
+        height: calc(23.5rem * 0.85);
+        .img{
+            bottom: calc(6rem * 0.85);
+            width:  calc(230px * 0.85);
+            height: calc(230px * 0.85);
+        }
+        .name {
+            bottom: calc(12rem * 0.85);
+            font-size: calc(1.2rem * 0.85);
+            font-weight: calc(700px * 0.85);
+            letter-spacing: calc(0.25em * 0.85);
+            margin-top: calc(6rem * 0.85);
+        }
+        .colorway { 
+            bottom: calc(12rem * 0.85);
+            font-size: calc(1rem * 0.85); 
+            margin-top: calc(0.5rem * 0.85);
+        }
+        .price {
+            bottom: calc(12rem * 0.85);
+            font-size: calc(1.5rem * 0.85); 
+            margin-top: calc(1rem * 0.85);
+        }
+        .reviews {
+            bottom: calc(12rem * 0.85);
+            margin-top: calc(1rem * 0.85);
+            font-size: 0.85em;
+        }
+        .itemcontainer {
+            bottom: calc(12rem * 0.85);
+            margin-left: calc(1rem * 0.85);
+            margin-right: calc(1rem * 0.85);
+        }
+        .add-wishlist, .add-cart  {
+            font-size: calc(25px * 0.85);
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    //75%
+    // .card {
+    //     width: calc(20rem * 0.65);
+    //     height: calc(23.5rem * 0.65);  
+    //     .img{
+    //         width: calc(230px * 0.65);
+    //         height: calc(230px * 0.65);
+    //         bottom: calc(6rem * 0.65);
+    //     }
+    // }
+
+    .card { 
+        margin: calc(5rem * 0.65) calc(3rem * 0.65) calc(5rem * 0.65) calc(3rem * 0.65);
+        padding: calc(1rem * 0.65);
+        width: calc(20rem * 0.65);
+        height: calc(23.5rem * 0.65);
+        .img{
+            bottom: calc(6rem * 0.65);
+            width:  calc(230px * 0.65);
+            height: calc(230px * 0.65);
+        }
+        .name {
+            bottom: calc(12rem * 0.65);
+            font-size: calc(1.2rem * 0.65);
+            font-weight: calc(700px * 0.65);
+            letter-spacing: calc(0.25em * 0.65);
+            margin-top: calc(6rem * 0.65);
+        }
+        .colorway { 
+            bottom: calc(12rem * 0.65);
+            font-size: calc(1rem * 0.65); 
+            margin-top: calc(0.5rem * 0.65);
+        }
+        .price {
+            bottom: calc(12rem * 0.65);
+            font-size: calc(1.5rem * 0.65); 
+            margin-top: calc(1rem * 0.65);
+        }
+        .reviews {
+            bottom: calc(12rem * 0.65);
+            margin-top: calc(1rem * 0.65);
+            font-size: 0.65em;
+        }
+        .itemcontainer {
+            bottom: calc(12rem * 0.65);
+            margin-left: calc(1rem * 0.65);
+            margin-right: calc(1rem * 0.65);
+        }
+        .add-wishlist, .add-cart  {
+            font-size: calc(25px * 0.65);
+        }
+    }
+}
+
+
+
+
+
