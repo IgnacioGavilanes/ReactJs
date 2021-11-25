@@ -26,13 +26,23 @@ export const NavBar = () => {
                     Contact
                 </Link>
             </li>
+            <li className='nav-text'>
+                <Link to='/products/low'>
+                    Low Top
+                </Link>
+            </li>
+            <li className='nav-text'>
+                <Link to='/products/high'>
+                    High Top
+                </Link>
+            </li>
             <li>
-                <Link to='/'>
+                <Link to='/wishlist'>
                     <BsHeart id='wishlist'/>
                 </Link>
             </li>
             <li>
-                <Link to='/'>
+                <Link to='/cart'>
                     < CartWidget/>
                 </Link>
             </li>

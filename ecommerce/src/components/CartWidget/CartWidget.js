@@ -4,9 +4,7 @@ import './CartWidget.scss'
 
 export const CartWidget = () => {
     return (
-        <a href='.#'>
-            <BsBag id='bag'/>
-        </a>
+        <BsBag id='bag'/>
     )
 }
 

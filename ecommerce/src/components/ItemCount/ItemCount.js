@@ -11,9 +11,10 @@ export const ItemCount = ({available, initial}) => {
 
     return (
         <div className='counter'>
-            <p className={count === 10 || count === 1 ? 'counter-number pulse' : 'counter-number'}>{count}</p>
+            
             <div className='counter-btnwrapper'>
                 <button className='counter-button' onClick={incrementCount}>+</button>
+                <p className={count === 10 || count === 1 ? 'counter-number pulse' : 'counter-number'}>{count}</p>
                 <button className='counter-button' onClick={decrementCount}>-</button>
             </div>
         </div>

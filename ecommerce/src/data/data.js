@@ -11,9 +11,10 @@ export const data = [
         colorway : "Green Logo Colorway", 
         reviews: 22, 
         stock: 3, 
-        price: 120.00, 
+        price: 129, 
+        msrp:159.50,
         imgsrc: "https://via.placeholder.com/220",
-        category: ''
+        category: 'low'
     },
 
     {
@@ -23,28 +24,31 @@ export const data = [
         reviews: 24,
         stock: 4,
         price: 179.99, 
+        msrp: 179.99,
         imgsrc: "https://via.placeholder.com/220",
-        category: ''
+        category: 'low'
     },
 
     {
         id: 3, 
-        title: "Balenciaga Triple S",
+        title: "Balenciaga Triple S Sneaker",
         colorway: "Red / Black Colorway", 
         reviews: 67,
         stock: 1,
         price: 299.99,
+        msrp:325.45,
         imgsrc: "https://via.placeholder.com/220",
-        category: ''
+        category: 'low'
     },
 
     {
         id: 4,
-        title: "Balenciaga Track", 
+        title: "Balenciaga Track Sneaker", 
         colorway: "Orange / Blue Colorway", 
         reviews: 44, 
         stock: 2, 
-        price: 375.00, 
+        price: 375.25, 
+        msrp:399.99,
         imgsrc: "https://via.placeholder.com/220",
         category: 'low'
     },
@@ -55,7 +59,8 @@ export const data = [
         colorway: "Snow Beach Colorway", 
         reviews: 39, 
         stock: 2, 
-        price: 140, 
+        price: 135.45, 
+        msrp:149.99,
         imgsrc: "https://via.placeholder.com/220",
         category: 'high'
     }

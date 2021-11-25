@@ -1,18 +1,21 @@
 import React, {useState, useEffect} from 'react';
 import './ItemDetailContainer.scss'
 import {ItemDetail}  from '../ItemDetail/ItemDetail';
-import {getOneItem} from '../../helpers/getOneItem';
+import {getData} from '../../helpers/getData';
+import { useParams } from 'react-router';
 
 export const ItemDetailContainer = () => {
 
     const [loading, setLoading] = useState(false)
     const [productDetail, setProductDetail] = useState([])
 
+    const {productId} = useParams()
+
     useEffect(() => {
         setLoading(true)
-        getOneItem()
+        getData()
             .then( (response) => {
-                setProductDetail(response)
+                setProductDetail(response.find(product => product.id === Number(productId)) )
             })
             .catch( (error) => {
                 console.log(error)
@@ -21,7 +24,7 @@ export const ItemDetailContainer = () => {
                 setLoading(false)
             })
     }, [])
-    console.log(productDetail)
+
     return (
         <div>
             <h1 className='title'>Product Detail:</h1>
@@ -29,7 +32,7 @@ export const ItemDetailContainer = () => {
             {
                 loading 
                     ? <h3 className='loader'> Loading...</h3> 
-                    : <ItemDetail item={productDetail}/>
+                    : <ItemDetail {...productDetail}/>
             }
         </div>
     )

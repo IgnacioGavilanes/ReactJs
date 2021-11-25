@@ -4,58 +4,115 @@
 
 .container{
     margin: 6rem auto auto 12rem;
+    display: flex;
 
-    .in-bl{
-        display: inline-block;
-        margin-left: 12rem;
-    }
-    .img{
-        width:27rem;
-        height: auto;  
-        display: block;    
-    }
-    // .name{
-    //     margin-left:3rem;
-    // }
-    .colorway{
-        font-weight: 400;
-    }
-    .reviews{
-        text-align: center;
-        font-weight: 400;
-    }
-    .price {
-        text-align: center;
-        font-weight: 400;
-        font-size: 1.4em;
-    }
-    .availability{
-        font-weight: 400;
-    }
-    .wishlist, .share{
-        cursor: pointer;
-        font-size: 40px;
+    .flex-child {
+        flex: 1;
     }
 
-    .add-item {
-        border-radius: 6rem;
-        color:white;
-        background-color: black;
-        font-size: 1.1em;
-        font-weight: 500;
-        padding: 0.7rem;
-        width: 11rem;
-        height:3rem;
-        justify-content: center;
-        text-align: center;
-        border-style: none;
-        cursor: pointer;
-        &hover{
-            color:black;
-            background-color: white;
+    .img-container{
+        .img{
+            width:22rem;
+            height: 12rem;  
+            display: block;    
+            margin-bottom: 1rem;
+        }
+    }
+
+    .data-container{
+        margin-right:12rem;
+        
+        .name{
+            letter-spacing: 11px;
+
+        }
+        .colorway{
+            margin-top: 2rem;
+            font-size:1.2em;
+            font-weight: 400;
+        }
+
+        .reviews{
+            text-align: right;
+            font-weight: 400;
+            font-size: 0.9em;
+        }
+
+        .side-by-side {
+            // justify-content: space-around;
+            display:inline-block;
+        }
+        
+        .price {
+            text-align: right;
+            font-weight: 400;
+            font-size: 1.5em;
+            margin-top:3rem;
+            margin-right:4.25rem;
+            margin-bottom:1rem;
+        }
+
+        .discounted {
+            margin-right:3rem;
+        }
+
+        .previous-price{
+            color: red;
+            font-weight: 300;
+            font-size: 1em;
+            text-decoration:line-through;
+            position: absolute;
+            right: 19rem;
+            top: 34rem;
+        }
+
+        .availability{
+            font-weight: 300;
+            font-size:0.7em;
+            margin-left: 8rem;
+            position: absolute;
+            margin-top: 1rem;
+        }
+     
+
+        .wishlist{
+            cursor: pointer;
+            font-size: 30px;
+            margin-right: 1rem;
+        }
+        
+        .share{
+            cursor: pointer;
+            font-size: 30px;
+            margin-right: 3rem;
+        }
+        
+        .icons{
+            justify-content: space-around;
+            float: right;
+        }
+
+        .add-item {
+            border-radius: 6rem;
+            color:white;
+            background-color: black;
+            font-size: 1.1em;
+            font-weight: 500;
+            padding: 0.7rem;
+            width: 11rem;
+            height:3rem;
+            justify-content: center;
+            text-align: center;
+            border-style: none;
+            cursor: pointer;
+            float:right;
+            &hover{
+                color:black;
+                background-color: white;
+            }
+
         }
 
     }
-
     
 }
