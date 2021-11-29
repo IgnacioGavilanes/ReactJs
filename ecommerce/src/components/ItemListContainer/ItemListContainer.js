@@ -3,6 +3,9 @@ import './ItemListContainer.scss';
 import {ItemList} from "../ItemList/ItemList"
 import {getData} from '../../helpers/getData';
 import { useParams } from 'react-router';
+import {Contact} from '../Contact/Contact';
+import {Footer} from '../Footer/Footer';
+
 
 export const ItemListContainer = () => {
 
@@ -37,8 +40,17 @@ export const ItemListContainer = () => {
 
             {
                 loading 
-                    ? <h3 className='loader'> Loading...</h3> 
-                    : <ItemList items={products}/>
+                    ? 
+                        <h3 className='loader'> 
+                            Loading...
+                        </h3> 
+                    : 
+                        <>
+                            <ItemList items={products}/>
+                            <hr className='divider'/>
+                            <Contact/>
+                            <Footer/>
+                        </>
             }
 
         </div>

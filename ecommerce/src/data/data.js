@@ -11,8 +11,8 @@ export const data = [
         colorway : "Green Logo Colorway", 
         reviews: 22, 
         stock: 3, 
-        price: 129, 
-        msrp:159.50,
+        price: 129.99, 
+        msrp:159.59,
         imgsrc: "https://via.placeholder.com/220",
         category: 'low'
     },

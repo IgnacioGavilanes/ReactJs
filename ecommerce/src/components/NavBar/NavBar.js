@@ -22,7 +22,7 @@ export const NavBar = () => {
                 </Link>
             </li>
             <li className='nav-text'>
-                <Link to='/contact'>
+                <Link to='/#contactForm'>
                     Contact
                 </Link>
             </li>

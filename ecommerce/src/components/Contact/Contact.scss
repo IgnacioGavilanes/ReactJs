@@ -1,0 +1,122 @@
+.contact-section{
+    display: flex;
+    justify-content: center;
+    #contactForm {
+        padding: 4rem;
+        display: flex;
+        flex-direction: column;
+        // .sub-title {
+        //     margin: 3rem auto 2rem auto;
+        //     font-size: 2em;
+        //     font-weight: 400;
+        // }
+
+        #name, #email {
+            width: 15rem;
+            height: 3rem;
+            border-radius: 5px;
+            padding: 1rem;
+            border-style: solid;
+        }
+
+        #message {
+            width: 20rem;
+            max-width: 20rem;
+            min-width: 20rem;
+            height: 8rem;
+            max-height: 24rem;
+            min-height: 8rem;
+            border-radius: 5px;
+            padding: 1rem;
+            border-style: solid;
+            margin-bottom: 2rem;
+        }
+
+        .submit-form {
+            border-radius: 6rem;
+            color:black;
+            background-color: rgba(53, 53, 53, 0.123);
+            border-style: none;
+            box-shadow: -7px -7px 20px 0px #fff9,
+                        -4px -4px 5px 0px #fff9,
+                        7px 7px 20px 0px #0002,
+                        4px 4px 5px 0px #0001,
+                        inset 0px 0px 0px 0px #fff9, 
+                        inset 0px 0px 0px 0px #0001,
+                        inset 0px 0px 0px 0px #fff9,
+                        inset 0px 0px 0px 0px #0001;
+            transition: 0.3s;
+            font-size: 1em;
+            font-weight: 500;
+            padding: 0.7rem;
+            width: 8rem;
+            height:3rem;
+            justify-content: center;
+            text-align: center;            
+            cursor: pointer;
+
+            &:hover{
+                color:white;
+                background-color: black;
+                border-style: solid;
+                // border-color: $success;
+            }
+            &:active {
+                transform: scale(0.9);
+            }
+            .availability{
+                display: none;
+            }
+        
+        }
+    }
+
+    .contact-info {
+        padding: 4rem;
+        background:#E0E5EC;
+        margin-left: 4rem;
+        border-radius: 3rem;
+
+        .info-list {
+            margin-top:2rem;        
+        }
+
+        .list-element {
+            margin-top:2rem; 
+            list-style: none;
+            
+        }
+
+        .circular-container{
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            background-color: grey;
+            display: flex;
+            margin-right: 1rem;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .icon {
+            width: 20px;
+            height: 20px;
+            color: white;
+        }
+
+        .contact-piece {
+            display:flex;
+        }
+
+        .info-detail {
+            text-align: left;
+        }
+
+        .gmap_canvas {
+            margin-top: 3.6rem;
+            width: 10rem;
+            height: auto;
+        }
+    }
+}

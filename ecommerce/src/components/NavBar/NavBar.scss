@@ -9,6 +9,8 @@ nav {
     width: 100%;
     padding: 1em;
     height: 9vh;
+    position: fixed;
+    z-index: 100;
   
     /* ul tag */
     .navlinks {

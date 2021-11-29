@@ -3,6 +3,7 @@ import './ItemDetailContainer.scss'
 import {ItemDetail}  from '../ItemDetail/ItemDetail';
 import {getData} from '../../helpers/getData';
 import { useParams } from 'react-router';
+import {Footer} from '../Footer/Footer';
 
 export const ItemDetailContainer = () => {
 
@@ -32,7 +33,11 @@ export const ItemDetailContainer = () => {
             {
                 loading 
                     ? <h3 className='loader'> Loading...</h3> 
-                    : <ItemDetail {...productDetail}/>
+                    : 
+                    <>
+                        <ItemDetail {...productDetail}/>
+                        <Footer/>
+                    </>
             }
         </div>
     )
