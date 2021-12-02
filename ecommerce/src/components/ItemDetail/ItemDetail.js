@@ -1,9 +1,10 @@
-import React, {useState} from 'react'
+import {useState, useContext} from 'react'
 import './ItemDetail.scss'
 import {RiShareLine} from "react-icons/ri";
 import {ItemCount} from '../ItemCount/ItemCount'
 import {BsHeart} from "react-icons/bs";
 import {Link} from 'react-router-dom'
+import {CartContext} from '../../context/CartContext';
 
 export const ItemDetail = ({id, imgsrc, title, colorway, msrp, price, reviews, stock}) => {
     
@@ -13,15 +14,20 @@ export const ItemDetail = ({id, imgsrc, title, colorway, msrp, price, reviews, s
     const [count, setCount] = useState(0)
     const[inCart, setInCart] = useState(false)
 
+    const {addToCart, removeFromCart, clear, isInCart} = useContext(CartContext)
+
+
     const handleAddToCart = () => {
 
         if (count > 0) {
-            console.log('Item agregado al carrito:',{
+
+            addToCart({
                 id,
+                imgsrc,
                 title,
+                colorway,
                 price,
                 count,
-                imgsrc
             })
             setInCart(true)
         } 
@@ -46,7 +52,7 @@ export const ItemDetail = ({id, imgsrc, title, colorway, msrp, price, reviews, s
                     <span className='green-box'></span>
 
                     {
-                        !inCart 
+                        !isInCart(id)
                         ?   <>
                                 <ItemCount 
                                     available={stock} 

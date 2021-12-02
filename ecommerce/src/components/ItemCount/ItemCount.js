@@ -3,6 +3,8 @@ import './ItemCount.scss';
 
 export const ItemCount = ({available, count, setCount, handleAddToCart}) => {
 
+    
+
     const incrementCount = () => {count < available && setCount(count + 1)}
 
     const decrementCount = () => {count > 0 && setCount(count - 1)}
