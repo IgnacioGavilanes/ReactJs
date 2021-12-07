@@ -5,6 +5,7 @@ import {getData} from '../../helpers/getData';
 import { useParams } from 'react-router';
 import {Contact} from '../Contact/Contact';
 import {Footer} from '../Footer/Footer';
+import { Loader } from '../Loader/Loader';
 
 
 export const ItemListContainer = () => {
@@ -36,16 +37,13 @@ export const ItemListContainer = () => {
 
     return (
         <div>
-            <h1 className='products-title'>Products:</h1>
-
             {
                 loading 
                     ? 
-                        <h3 className='loader'> 
-                            Loading...
-                        </h3> 
+                        <Loader/>
                     : 
                         <>
+                            <h1 className='products-title'>Products:</h1>
                             <ItemList items={products}/>
                             <hr className='divider'/>
                             <Contact/>

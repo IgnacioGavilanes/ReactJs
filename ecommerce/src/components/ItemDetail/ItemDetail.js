@@ -12,9 +12,11 @@ export const ItemDetail = ({id, imgsrc, title, colorway, msrp, price, reviews, s
     //asi nosotros poder manejar count en este componente y mas abajo agregar una funcion
     //para poder agregar elementos al carrito de compras.
     const [count, setCount] = useState(0)
+
+    //uso este state o isincart de cartcontext???
     const[inCart, setInCart] = useState(false)
 
-    const {addToCart, removeFromCart, clear, isInCart} = useContext(CartContext)
+    const {addToCart, isInCart} = useContext(CartContext)
 
 
     const handleAddToCart = () => {

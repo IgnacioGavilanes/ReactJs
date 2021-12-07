@@ -1,0 +1,158 @@
+.wrapper {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  background: #E0E5EC;
+  position: relative;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
+  border-radius: 3rem;
+  margin: 5rem 3rem 5rem 3rem;
+  padding: 1rem;
+  width: 20rem;
+  height: 23.5rem;
+  text-align: center;
+  align-items: center;
+}
+.card .img {
+  position: relative;
+  justify-content: center;
+  bottom: 6rem;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+}
+.card .name {
+  position: relative;
+  bottom: 12rem;
+  font-size: 1.2rem;
+  font-weight: 700px;
+  text-align: center;
+  letter-spacing: 0.25em;
+  margin-top: 6rem;
+}
+.card .colorway {
+  position: relative;
+  bottom: 12rem;
+  font-size: 1rem;
+  font-weight: normal;
+  margin-top: 0.5rem;
+}
+.card .price {
+  position: relative;
+  bottom: 12rem;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-top: 1rem;
+}
+.card .reviews {
+  position: relative;
+  bottom: 12rem;
+  text-align: center;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.card .itemcontainer {
+  display: inline-block;
+  position: relative;
+  bottom: 12rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.card .add-wishlist, .card .add-cart {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* card animations */
+.card:hover {
+  transform: scale(1.1);
+  transition: 500ms ease;
+  border-radius: 0;
+}
+
+.card:hover .img {
+  transform: scale(1.5);
+  transition: 500ms ease;
+  transform: rotate(-15deg);
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    margin: calc(5rem * 0.85) calc(3rem * 0.85) calc(5rem * 0.85) calc(3rem * 0.85);
+    padding: calc(1rem * 0.85);
+    width: calc(20rem * 0.85);
+    height: calc(23.5rem * 0.85);
+  }
+  .card .img {
+    bottom: calc(6rem * 0.85);
+    width: calc(230px * 0.85);
+    height: calc(230px * 0.85);
+  }
+  .card .name {
+    bottom: calc(12rem * 0.85);
+    font-size: calc(1.2rem * 0.85);
+    font-weight: calc(700px * 0.85);
+    letter-spacing: calc(0.25em * 0.85);
+    margin-top: calc(6rem * 0.85);
+  }
+  .card .colorway {
+    bottom: calc(12rem * 0.85);
+    font-size: calc(1rem * 0.85);
+    margin-top: calc(0.5rem * 0.85);
+  }
+  .card .price {
+    bottom: calc(12rem * 0.85);
+    font-size: calc(1.5rem * 0.85);
+    margin-top: calc(1rem * 0.85);
+  }
+  .card .reviews {
+    bottom: calc(12rem * 0.85);
+    margin-top: calc(1rem * 0.85);
+    font-size: 0.85em;
+  }
+  .card .itemcontainer {
+    bottom: calc(12rem * 0.85);
+    margin-left: calc(1rem * 0.85);
+    margin-right: calc(1rem * 0.85);
+  }
+  .card .add-wishlist, .card .add-cart {
+    font-size: calc(25px * 0.85);
+  }
+}
+@media screen and (max-width: 768px) {
+  .card {
+    margin: calc(5rem * 0.65) calc(3rem * 0.65) calc(5rem * 0.65) calc(3rem * 0.65);
+    padding: calc(1rem * 0.65);
+    width: calc(20rem * 0.65);
+    height: calc(23.5rem * 0.65);
+  }
+  .card .img {
+    bottom: calc(6rem * 0.65);
+    width: calc(230px * 0.65);
+    height: calc(230px * 0.65);
+  }
+  .card .name {
+    bottom: calc(12rem * 0.65);
+    font-size: calc(1.2rem * 0.65);
+    font-weight: calc(700px * 0.65);
+    letter-spacing: calc(0.25em * 0.65);
+    margin-top: calc(6rem * 0.65);
+  }
+  .card .colorway {
+    bottom: calc(12rem * 0.65);
+    font-size: calc(1rem * 0.65);
+    margin-top: calc(0.5rem * 0.65);
+  }
+  .card .price {
+    bottom: calc(12rem * 0.65);
+    font-size: calc(1.5rem * 0.65);
+    margin-top: calc(1rem * 0.65);
+  }
+  .card .reviews {
+    bottom: calc(12rem * 0.65);
+    margin-top: calc(1rem * 0.65);
+    font-size: 0.65em;
+  }
+}/*# sourceMappingURL=Item.css.map */

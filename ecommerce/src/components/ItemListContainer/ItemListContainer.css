@@ -1,19 +1,18 @@
-.placeholder {
-  overflow-x: hidden;
-  font-size: 1.4em;
-  letter-spacing: 0.2rem;
+.products-title {
+  margin-top: 8rem;
+  font-size: 2em;
+  font-weight: 400;
   text-align: center;
-  font-weight: normal;
-  padding: 2rem;
 }
 
-@media screen and (max-width: 1024px) {
-  .placeholder {
-    padding: 3rem;
-  }
+.loader {
+  margin-top: 12rem;
+  font-size: 2.8em;
+  font-weight: 400;
+  text-align: center;
 }
-@media screen and (max-width: 768px) {
-  .placeholder {
-    padding: 2.5rem;
-  }
+
+.divider {
+  margin: 1rem auto 4rem auto;
+  width: 80vw;
 }/*# sourceMappingURL=ItemListContainer.css.map */

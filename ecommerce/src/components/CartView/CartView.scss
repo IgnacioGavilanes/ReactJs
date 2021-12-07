@@ -1,3 +1,96 @@
-.title {
+.empty-cart-container{
+    text-align: center;
+    font-weight: normal;
+    .empty-cart{
+        margin-top: 25rem;
+        font-size: 1.4em;
+        letter-spacing: 0.2rem;
+        font-weight: normal;
+    }
+    .homepage{
+        margin-top: 5rem;
+        color: black;
+        text-decoration: none;
+        letter-spacing: 0.2rem;
+        font-weight: normal;
+    }
+
+    .total-price {
+        font-weight: 300;
+    }
+}
+/*------------------------------------------------------------------------------------
+--------------------------------------CARTITEM----------------------------------------
+------------------------------------------------------------------------------------*/
+.cart-title {
     margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.cart-container {
+    display: flex;
+    margin-left:12rem;
+    .cart-img {
+        // margin-bottom: 1rem;
+        margin-right: 5rem;
+    }
+    .cart-name{
+        margin-top: 5rem;
+
+        font-size: 1em;
+        font-weight: 400;
+        letter-spacing: 0.2rem;
+        margin-right: 4rem;
+
+    }
+    .cart-colorway {
+        font-size: 0.8em;
+        font-weight: 300;
+        letter-spacing: 0.2rem;
+        margin-right: 4rem;
+        margin-top: 1rem;
+    }
+    .count{
+        margin-top: 5.6rem;
+        font-size: 0.8em;
+        font-weight: 300;
+        margin-right: 4rem;
+    }
+    .cart-price {
+        margin-top: 5rem;
+        font-size: 1.5em;
+        font-weight: 400;
+        letter-spacing: 0.2;
+        margin-right: 4rem;
+
+
+    }
+    .delete{
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        margin-top: 5.3rem;
+        font-size: 1.3rem;
+        margin-right: 2rem;
+    }
+
+    .heart {
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        margin-top: 5.3rem;
+        font-size: 1.3rem;
+        font-weight: 300;
+    }
+    // #heart-icon {
+        
+    // }
+}
+
+.separator{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 75%;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }

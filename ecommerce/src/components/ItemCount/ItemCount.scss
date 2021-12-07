@@ -1,4 +1,6 @@
 $primary: rgba(245, 245, 245, 0.5);
+$red : #ff2b2b;
+
 .counter-container {
     display: flex;
     justify-content: space-around;
@@ -17,6 +19,7 @@ $primary: rgba(245, 245, 245, 0.5);
         .counter-btnwrapper{
             display: contents;
             .counter-button {
+                border: solid #bcbcbc 1px;
                 cursor: pointer;
                 margin: 1rem;
                 width: 2rem;
@@ -40,6 +43,10 @@ $primary: rgba(245, 245, 245, 0.5);
                 &:active {
                     transform: scale(0.9);
                 }
+            }
+            .no-stock {
+                color: $red;
+                border: solid #EAC0C0 1px;
             }
         }
     }

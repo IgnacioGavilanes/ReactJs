@@ -1,0 +1,26 @@
+#bag {
+  width: 32px;
+  height: 32px;
+}
+
+.circle-container {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #B4F18F;
+  position: absolute;
+  top: 2rem;
+  right: 12.5rem;
+  border: solid 2px;
+}
+
+#count {
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.hide {
+  display: none;
+}/*# sourceMappingURL=CartWidget.css.map */

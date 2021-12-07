@@ -1,0 +1,171 @@
+.container {
+  margin: 6rem auto auto 12rem;
+  display: flex;
+}
+.container .flex-child {
+  flex: 1;
+}
+.container .img-container .img {
+  width: 22rem;
+  height: 12rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+.container .data-container {
+  margin-right: 12rem;
+}
+.container .data-container .name {
+  letter-spacing: 11px;
+}
+.container .data-container .colorway {
+  margin-top: 2rem;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+.container .data-container .green-box {
+  position: absolute;
+  top: 34.35rem;
+  right: 18.2rem;
+  width: 4.8rem;
+  height: 0.75rem;
+  background: #B4F18F;
+  z-index: -1;
+}
+.container .data-container .price {
+  text-align: right;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-top: 3rem;
+  margin-right: 6rem;
+  margin-bottom: 1rem;
+}
+.container .data-container .discounted {
+  margin-right: 6rem;
+}
+.container .data-container .previous-price {
+  color: red;
+  font-weight: 300;
+  font-size: 1em;
+  text-decoration: line-through;
+  position: absolute;
+  right: 25rem;
+  top: 34.3rem;
+}
+.container .data-container .availability {
+  font-weight: 300;
+  font-size: 0.7em;
+  margin-left: 4.7rem;
+  position: absolute;
+  margin-top: -0.5rem;
+}
+.container .data-container .wishlist {
+  cursor: pointer;
+  font-size: 27px;
+}
+.container .data-container .share {
+  cursor: pointer;
+  font-size: 27px;
+}
+.container .data-container .icons {
+  justify-content: space-around;
+  float: right;
+  display: flex;
+  width: 9rem;
+  margin-top: 2.5rem;
+  margin-right: 4.3rem;
+  align-items: center;
+}
+.container .data-container .reviews {
+  text-align: right;
+  font-weight: 400;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+.container .size-dropdown {
+  border-radius: 6rem;
+  color: black;
+  background-color: rgba(53, 53, 53, 0.123);
+  border-style: solid;
+  border-color: black;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
+  transition: 0.3s;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0.7rem;
+  width: 7.5rem;
+  height: 3rem;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  left: 49rem;
+}
+.container .size-dropdown:hover {
+  color: white;
+  background-color: #3b3b3b;
+  border-style: solid;
+}
+.container .size-dropdown:active {
+  transform: scale(0.9);
+}
+.container .response-btns {
+  display: flex;
+  justify-content: space-around;
+}
+.container .checkout-btn {
+  text-decoration: none;
+  margin-top: 3rem;
+  border-radius: 6rem;
+  color: black;
+  background-color: rgba(53, 53, 53, 0.123);
+  border-style: none;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
+  transition: 0.3s;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 0.7rem;
+  width: 11rem;
+  height: 3rem;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  float: right;
+}
+.container .checkout-btn:hover {
+  color: white;
+  background-color: black;
+  border-style: solid;
+}
+.container .checkout-btn:active {
+  transform: scale(0.9);
+}
+.container .checkout-btn .availability {
+  display: none;
+}
+.container .home-btn {
+  margin-top: 3rem;
+  text-decoration: none;
+  border-radius: 6rem;
+  color: black;
+  background-color: rgba(53, 53, 53, 0.123);
+  border-style: none;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
+  transition: 0.3s;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 0.7rem;
+  width: 13rem;
+  height: 3rem;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  float: right;
+}
+.container .home-btn:hover {
+  color: white;
+  background-color: black;
+  border-style: solid;
+}
+.container .home-btn:active {
+  transform: scale(0.9);
+}/*# sourceMappingURL=ItemDetail.css.map */

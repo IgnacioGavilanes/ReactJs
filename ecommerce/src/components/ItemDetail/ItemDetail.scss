@@ -1,5 +1,5 @@
 $success : #B4F18F;
-
+$red : #ff2b2b;
 
 
 .container{
@@ -55,7 +55,7 @@ $success : #B4F18F;
         }
 
         .previous-price{
-            color: red;
+            color: $red;
             font-weight: 300;
             font-size: 1em;
             text-decoration:line-through;

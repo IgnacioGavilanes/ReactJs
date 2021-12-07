@@ -42,9 +42,7 @@ export const NavBar = () => {
                 </Link>
             </li>
             <li>
-                <Link to='/cart'>
-                    < CartWidget/>
-                </Link>
+                < CartWidget/>
             </li>
         </ul>
         <div id='burger'>

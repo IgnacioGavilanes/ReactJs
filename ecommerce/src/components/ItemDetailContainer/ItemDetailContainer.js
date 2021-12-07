@@ -4,6 +4,7 @@ import {ItemDetail}  from '../ItemDetail/ItemDetail';
 import {getData} from '../../helpers/getData';
 import { useParams } from 'react-router';
 import {Footer} from '../Footer/Footer';
+import { Loader } from '../Loader/Loader';
 
 export const ItemDetailContainer = () => {
 
@@ -27,14 +28,14 @@ export const ItemDetailContainer = () => {
     }, [])
 
     return (
-        <div>
-            <h1 className='title'>Product Detail:</h1>
-            <hr className='divider'/>
+        <div>            
             {
                 loading 
-                    ? <h3 className='loader'> Loading...</h3> 
+                    ? <Loader/> 
                     : 
                     <>
+                        <h1 className='title'>Product Detail:</h1>
+                        <hr className='divider'/>
                         <ItemDetail {...productDetail}/>
                         <Footer/>
                     </>

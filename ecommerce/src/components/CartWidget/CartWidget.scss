@@ -1,4 +1,42 @@
+$success : #B4F18F;
+
+.widget {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+
+
 #bag {
-    width: 32px;
-    height: 32px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .circle-container {
+    width: 20px;
+    height:20px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: $success;
+    position: absolute;
+    top: 2rem;
+    right: 13rem;
+    border: solid 2px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  #count {
+    font-size: 0.8em;
+    font-weight: 600;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
   }

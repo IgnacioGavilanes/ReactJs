@@ -1,18 +1,22 @@
-.counter {
-  margin-top: 10rem;
+.counter-container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.counter-container .counter {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
-  height: 40vh;
+  gap: 0.1rem;
 }
-.counter .counter-number {
-  font-size: 1.8rem;
-  -webkit-animation: pulse 500ms ease-in-out;
-          animation: pulse 500ms ease-in-out;
+.counter-container .counter .counter-number {
+  font-size: 1.2rem;
 }
-.counter .counter-btnwrapper .counter-button {
+.counter-container .counter .counter-btnwrapper {
+  display: contents;
+}
+.counter-container .counter .counter-btnwrapper .counter-button {
   cursor: pointer;
   margin: 1rem;
   width: 2rem;
@@ -22,11 +26,41 @@
   box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
   transition: 0.3s;
 }
-.counter .counter-btnwrapper .counter-button:hover {
+.counter-container .counter .counter-btnwrapper .counter-button:hover {
   background-color: rgba(53, 53, 53, 0.123);
 }
-.counter .counter-btnwrapper .counter-button:active {
+.counter-container .counter .counter-btnwrapper .counter-button:active {
   transform: scale(0.9);
+}
+.counter-container .add-item {
+  border-radius: 6rem;
+  color: black;
+  background-color: rgba(53, 53, 53, 0.123);
+  border-style: none;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
+  transition: 0.3s;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 0.7rem;
+  width: 11rem;
+  height: 3rem;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  float: right;
+}
+.counter-container .add-item:hover {
+  color: white;
+  background-color: black;
+  border-style: solid;
+}
+.counter-container .add-item:active {
+  transform: scale(0.9);
+}
+
+.pulse {
+  -webkit-animation: pulse 400ms ease-in-out;
+          animation: pulse 400ms ease-in-out;
 }
 
 @-webkit-keyframes pulse {
