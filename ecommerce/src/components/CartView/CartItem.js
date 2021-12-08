@@ -5,13 +5,13 @@ import './CartView.scss'
 import {BsHeart} from "react-icons/bs";
 
 
-export const CartItem = ({imgsrc, title, id, colorway, count, price}) => {
+export const CartItem = ({rightImgsrc, title, id, colorway, count, price}) => {
 
     const {removeFromCart, totalPrice} = useContext(CartContext)
     return (
         <div >
             <div className='cart-container'>
-                <img src={imgsrc} alt='item' className='cart-img'></img>
+                <img src={rightImgsrc} alt='item' className='cart-img'></img>
                 <div>
                     <h2 className='cart-name'>{title}</h2>
                     <h3  className='cart-colorway'>{colorway}</h3>

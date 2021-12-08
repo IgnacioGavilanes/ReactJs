@@ -6,7 +6,8 @@ import {BsHeart} from "react-icons/bs";
 import {Link} from 'react-router-dom'
 import {CartContext} from '../../context/CartContext';
 
-export const ItemDetail = ({id, imgsrc, title, colorway, msrp, price, reviews, stock}) => {
+
+export const ItemDetail = ({id, rightImgsrc, leftImgsrc, title, colorway, msrp, price, reviews, stock}) => {
     
     //Usando intercabiabilidad ponemos este state en itemDetail en vez de itemCount para 
     //asi nosotros poder manejar count en este componente y mas abajo agregar una funcion
@@ -25,7 +26,8 @@ export const ItemDetail = ({id, imgsrc, title, colorway, msrp, price, reviews, s
 
             addToCart({
                 id,
-                imgsrc,
+                rightImgsrc,
+                leftImgsrc,
                 title,
                 colorway,
                 price,
@@ -38,8 +40,8 @@ export const ItemDetail = ({id, imgsrc, title, colorway, msrp, price, reviews, s
     return (
         <div className='container'>
                 <div className='img-container flex-child'>
-                    <img src={imgsrc} className="img" alt={title}/>
-                    <img src={imgsrc} className="img" alt={title}/>
+                    <img src={rightImgsrc} className="img" alt={title}/>
+                    <img src={leftImgsrc} className="img" alt={title}/>
                 </div>
                 <div className='data-container flex-child'>
                     <span className=''>

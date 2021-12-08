@@ -23,8 +23,8 @@
 --------------------------------------CARTITEM----------------------------------------
 ------------------------------------------------------------------------------------*/
 .cart-title {
-    margin-top: 10rem;
-    margin-bottom: 5rem;
+    margin:10rem auto 5rem 12rem;
+    font-weight: 300;
 }
 
 .cart-container {
@@ -41,6 +41,7 @@
         font-weight: 400;
         letter-spacing: 0.2rem;
         margin-right: 4rem;
+        width: 300px;
 
     }
     .cart-colorway {
@@ -49,6 +50,7 @@
         letter-spacing: 0.2rem;
         margin-right: 4rem;
         margin-top: 1rem;
+        width: 300px;
     }
     .count{
         margin-top: 5.6rem;

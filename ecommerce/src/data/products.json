@@ -1,0 +1,88 @@
+[
+    {"id": 1, "title": "New Balance 327 x Casablanca", "colorway": "Green Logo Colorway", "brand": "newbalance", "collab": "casablanca", "msrp": 159.59,
+    "category": "low", "reviews": 22, "colorPrimary": "white", "colorSecondary": "green", "stock": 3, "price": 129.99, 
+    "rightImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/r-nb-casablanca.svg?alt=media&token=9c29e21c-45b4-4a2d-82eb-50348025f1a5", "leftImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/l-nb-casablanca.svg?alt=media&token=3ab915bb-276e-4409-9ee5-f26fc95c3399"},
+
+    {"id": 2, "title": "Adidas Ozweego x Raf Simons", "colorway": "Bright Yellow Night Navy Colorway", "brand": "adidas", "collab": "rafsimons", "msrp": 179.99,
+    "category": "low", "reviews": 24, "colorPrimary": "yellow", "colorSecondary": "black", "stock": 2, "price": 179.99, 
+    "rightImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/r-adidas-raf.svg?alt=media&token=e92b2a68-99a3-494e-88df-a6d465e0faf5", "leftImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/l-adidas-raf.svg?alt=media&token=dd83b0ea-064a-477e-91db-3a5ea981c422"},
+
+    {"title": "Balenciaga Triple S Sneaker", "colorway": "Red / Black Colorway", "brand": "balenciaga", "collab": null, "msrp": 325.45,
+    "category": "low", "reviews": 67, "colorPrimary": "black", "colorSecondary": "red", "stock": 1, "price": 299.99, 
+    "rightImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/r-balenciaga-sss.svg?alt=media&token=dd9ed0b8-eabe-4ca0-9604-024ab7a8fa7b", "leftImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/l-balenciaga-sss.svg?alt=media&token=5b939bcf-718b-4da0-bece-013114d5f487"},
+
+    {"title": "Balenciaga Track Sneaker", "colorway": "Orange / Blue Colorway", "brand": "balenciaga", "collab": null, "msrp": 399.99,
+    "category": "low", "reviews": 44, "colorPrimary": "orange", "colorSecondary": "blue", "stock": 2, "price": 375.45, 
+    "rightImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/r-balenciaga-track.svg?alt=media&token=be223512-fc78-43ce-b301-c2dadf2ae857", "leftImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/l-balenciaga-track.svg?alt=media&token=0702c578-5f9c-40c0-8720-72b08195291b"},
+
+    {"id": 5, "title": "Nike Blazer Mid x Sacai", "colorway": "Snow Beach Colorway", "brand": "nike", "collab": "sacai", "msrp": 149.99,
+    "category": "high", "reviews": 39, "colorPrimary": "yellow", "colorSecondary": "blue", "stock": 2, "price": 135.45, 
+    "rightImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/r-nike-blazer-sacai.svg?alt=media&token=b882d2b5-6f4b-4ac2-b414-93f1e93235a1", "leftImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/l-nike-blazer-sacai.svg?alt=media&token=122e4316-0391-4e7c-bfe7-7ebfdf1b572a"},
+
+    {"title": "Dior B23 High-Top", "colorway": "Black / White Colorway", "brand": "dior", "collab": null, "msrp": 375.45,
+    "category": "high", "reviews": 51, "colorPrimary": "white", "colorSecondary": "black", "stock": 4, "price": 349.99, 
+    "rightImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/r-dior.svg?alt=media&token=9ec5d473-3872-40cb-a5b2-5b04117cee3e", "leftImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/l-dior.svg?alt=media&token=72ebe022-c0fc-4d60-b496-15027c93cc4f"},
+
+    {"title": "New Balance 990v3 x Stray Rats", "colorway": "The Joker Colorway", "brand": "newbalance", "collab": null, "msrp": 159.99,
+    "category": "low", "reviews": 32, "colorPrimary": "green", "colorSecondary": "purple", "stock": 2, "price": 159.99, 
+    "rightImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/r-nb-990.svg?alt=media&token=c984d76b-6d5d-4389-aba0-0f26c8c4718f", "leftImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/l-nb-990.svg?alt=media&token=b4040fd7-681f-4455-9b39-d5319c4df32b"},
+
+    {"title": "New Balance 2002R x Salehe Bembury", "colorway": "Peace Be The Journey Colorway", "brand": "newbalance", "collab": null, "msrp":129.99, 
+    "category": "low", "reviews": 39, "colorPrimary": "orange", "colorSecondary": null, "stock": 3, "price": 125.45, 
+    "rightImgsrc": "", "leftImgsrc": ""},
+
+    {"title": "Nike Air Zoom Alphafly Next%", "colorway": "Black Electric Green Colorway", "brand": "nike", "collab": null, "msrp": 249.99, 
+    "category": "low", "reviews": 21, "colorPrimary": "black", "colorSecondary": "green", "stock": 1, "price": 225.49, 
+    "rightImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/r-nike-zoom.svg?alt=media&token=1f3c3030-e30f-4ea6-9870-fa33c9e5dd41", "leftImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/l-nike-zoom.svg?alt=media&token=bd5faeb9-f704-4b79-a1aa-7ad26aeb2bac"},
+
+    { "title": "OFF-WHITE Odsy-2000 SS21", "colorway": "Mint Blue Colorway", "brand": "offwhite", "collab": null, "msrp": 275.45, 
+    "category": "low", "reviews": 55, "colorPrimary": "blue", "colorSecondary": null, "stock": 2, "price": 275.45, 
+    "rightImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/r-off.svg?alt=media&token=5f951e78-cba3-4488-af2d-8f8ab9c05627", "leftImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/l-off.svg?alt=media&token=868bb8ba-b285-4b37-ad4b-8c1c60893461"},
+
+    {"title": "Nike Vaporwaffle x Sacai", "colorway": "Villain Red Neptune Green Colorway", "brand": "nike", "collab": "sacai", "msrp": 199.99, 
+    "category": "low", "reviews": 40, "colorPrimary": "burgundy", "colorSecondary": "green", "stock": 5, "price": 189.99, 
+    "rightImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/r-nike-waffle.svg?alt=media&token=8c8c225b-189c-4ea3-8b0b-8dcdfd757e78", "leftImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/l-nike-waffle.svg?alt=media&token=16f273c1-6dcb-42c4-836f-3f2a597e55fe"},
+
+    {"title": "Adidas Yeezy 500", "colorway": "Stone Colorway", "brand": "adidas", "collab": "yeezy", "msrp":219.99,
+    "category": "low", "reviews": 90, "colorPrimary": "beige", "colorSecondary": null, "stock": 4, "price": 219.99, 
+    "rightImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/r-yeezy-500.svg?alt=media&token=4948b71e-2828-4e16-b1da-20e3ba962cbf", "leftImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/l-yeezy-500.svg?alt=media&token=705d5568-7741-470f-afe7-33cad9ef59fe"},
+
+    {"title": "Adidas Yeezy Boost 350 V2", "colorway": "Core Black / White Colorway", "brand": "adidas", "collab": "yeezy", "msrp":199.99, 
+    "category": "low", "reviews": 35, "colorPrimary": "black", "colorSecondary": "white", "stock": 2, "price": 199.99, 
+    "rightImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/r-yeezy-350.svg?alt=media&token=6558d838-43e9-47d4-be5b-45477262f7f3", "leftImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/l-yeezy-350.svg?alt=media&token=75c793b2-4f87-444a-ad09-a17f967e7e63"},
+
+    {"title": "Adidas Yeezy 700 V3", "colorway": "Arzareth Colorway", "brand": "adidas", "collab": "yeezy", "msrp":259.99, 
+    "category": "low", "reviews": 73, "colorPrimary": "blue", "colorSecondary": "white", "stock": 3, "price": 249.99, 
+    "rightImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/r-yeezy-700.svg?alt=media&token=4e3df487-8092-49d5-aeb4-562c6d329f56", "leftImgsrc": "https://firebasestorage.googleapis.com/v0/b/reactjs-coderhouse-fc8c9.appspot.com/o/l-yeezy-700.svg?alt=media&token=1f4cbfe0-96b2-4109-9f91-3abc0bb3c0d7"},
+    {"title": "Saint Laurent Malibu Mid-Top", "colorway": "Optic White Colorway", "brand": "saintlaurent", "collab": null, "msrp": 399.99, 
+    "category": "high", "reviews": 85, "colorPrimary": "white", "colorSecondary": null, "stock": 2, "price": 399.99, 
+    "rightImgsrc": "", "leftImgsrc": ""},
+    
+    {"title": "Common Projects Original Achilles", "colorway": "Black Colorway", "brand": "commonprojects", "collab": null, "msrp": 325.45, 
+    "category": "high", "reviews": 31, "colorPrimary": "black", "colorSecondary": null, "stock": 4, "price": 274.99, 
+    "rightImgsrc": "", "leftImgsrc": ""},
+
+    {"title": "Nike Adapt BB Mag", "colorway": "Wolf Gray Colorway", "brand": "nike", "collab": null, "msrp": 319.99,
+    "category": "low", "reviews": 63, "colorPrimary": "grey", "colorSecondary": "blue", "stock": 4, "price": 299.99, 
+    "rightImgsrc": "", "leftImgsrc": ""},
+
+    {"title": "Jordan 1 Retro High x OFF-WHITE", "colorway": "Chicago Colorway", "brand": "nike", "collab": "offwhite", "msrp":199.99, 
+    "category": "high", "reviews": 58, "colorPrimary": "white", "colorSecondary": "red", "stock": 3, "price": 189.99, 
+    "rightImgsrc": "", "leftImgsrc": ""},
+
+    { "title": "Nike Dunk Low x OFF-WHITE", "colorway": "Pine Green Colorway", "brand": "nike", "collab": "offwhite", "msrp": 179.99, 
+    "category": "low", "reviews": 52, "colorPrimary": "green", "colorSecondary": "orange", "stock": 3, "price": 179.99, 
+    "rightImgsrc": "", "leftImgsrc": ""},
+
+    {"title": "Nike Zoom Tempo NEXT% x OFF-WHITE", "colorway": "Racer Blue / Pink Glow Colorway", "brand": "nike", "collab": "offwhite", "msrp": 265.45,
+    "category": "low", "reviews": 12, "colorPrimary": "pink", "colorSecondary": "purple", "stock": 1, "price": 265.45, 
+    "rightImgsrc": "", "leftImgsrc": ""},
+
+    {"title": "Converse Chuck Taylor x CDG PLAY", "colorway": "Blue Colorway", "brand": "converse", "collab": "cdg", "msrp": 150.49, 
+    "category": "high", "reviews": 43, "colorPrimary": "blue", "colorSecondary": null, "stock": 3, "price": 125.49, 
+    "rightImgsrc": "", "leftImgsrc": ""},
+
+    {"title": "Maison Margiela High-Top", "colorway": "Blue/Green Future Colorway", "brand": "maisonmargiela", "collab": null, "msrp": 475.45, 
+    "category": "high", "reviews": 54, "colorPrimary": "blue", "colorSecondary": "green", "stock": 4, "price": 425.45, 
+    "rightImgsrc": "", "leftImgsrc": ""}
+]
