@@ -5,6 +5,7 @@ import {ItemCount} from '../ItemCount/ItemCount'
 import {BsHeart} from "react-icons/bs";
 import {Link} from 'react-router-dom'
 import {CartContext} from '../../context/CartContext';
+import Swal from 'sweetalert2';
 
 
 export const ItemDetail = ({id, rightImgsrc, leftImgsrc, title, colorway, msrp, price, reviews, stock}) => {
@@ -33,6 +34,16 @@ export const ItemDetail = ({id, rightImgsrc, leftImgsrc, title, colorway, msrp, 
                 price,
                 count,
             })
+            Swal.fire({
+                position: 'bottom-end',
+                toast:true,
+                icon: 'success',
+                background: 'white',
+                html: `<b>${title}</b> is now in your bag!`,
+                showConfirmButton: false,
+                timer: 2000,
+              }
+              );
             setInCart(true)
         } 
     }
