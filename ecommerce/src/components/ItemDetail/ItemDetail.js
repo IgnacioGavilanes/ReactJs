@@ -87,7 +87,7 @@ export const ItemDetail = ({id, rightImgsrc, leftImgsrc, title, colorway, msrp, 
                             </>
                         :   
                             <div className='response-btns'>
-                                <Link to='/cart' className='checkout-btn'> Checkout </Link>
+                                <Link to='/cart' className='checkout-btn'> Go To Cart </Link>
                                 <Link to='/' className='home-btn'> Continue Shopping </Link>
                             </div>
                     }

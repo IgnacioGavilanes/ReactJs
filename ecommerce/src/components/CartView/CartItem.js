@@ -28,9 +28,9 @@ export const CartItem = ({rightImgsrc, title, id, colorway, count, price}) => {
                     <button onClick={() => {removeFromCart(id)}} className='delete'>
                         <FiTrash id='trash'/>
                     </button>
-                    <button className='heart'>
+                    {/* <button className='heart'>
                         <BsHeart id='heart-icon'/>
-                    </button>
+                    </button> */}
                 </div>
             </div>
             <hr className='separator'/>
