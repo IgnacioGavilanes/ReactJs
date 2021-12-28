@@ -21,11 +21,12 @@ export const NavBar = () => {
                     Home
                 </Link>
             </li>
-            <li className='nav-text'>
+            {/* LINK TO CONTACT FORM */}
+            {/* <li className='nav-text'>
                 <Link to='/#contactForm'>
                     Contact
                 </Link>
-            </li>
+            </li> */}
             <li className='nav-text'>
                 <Link to='/products/low'>
                     Low Top
@@ -36,11 +37,13 @@ export const NavBar = () => {
                     High Top
                 </Link>
             </li>
-            <li>
+
+            {/*WISHLIST*/}
+            {/* <li>
                 <Link to='/wishlist'>
                     <BsHeart id='wishlist'/>
                 </Link>
-            </li>
+            </li> */}
             <li>
                 < CartWidget/>
             </li>

@@ -77,10 +77,12 @@ export const ItemDetail = ({id, rightImgsrc, leftImgsrc, title, colorway, msrp, 
                                 />
                                 <h3 className='availability'>Stock available: {stock}</h3>
                                 <span className='icons'>
-                                    <BsHeart className='wishlist'/>
+                                    {/* WISHLIST */}
+                                    {/* <BsHeart className='wishlist'/> */}
                                     <h3 className='reviews'> ️‍🔥 {reviews}</h3> 
                                     <RiShareLine className='share'/>
-                                    <button className='size-dropdown'> Select Size</button>
+                                    {/* SELECT SIZE BUTTON */}
+                                    {/* <button className='size-dropdown'> Select Size</button> */}
                                 </span> 
                             </>
                         :   
